@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Firefox</string>
+	<key>Input</key>
+	<dict>
+		<key>LOCALE</key>
+		<string>en_GB</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string></string>
+		<key>NAME</key>
+		<string>firefox</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>development</string>
+			</array>
+			<key>display_name</key>
+			<string>Firefox</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<false/>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>developer</key>
+			<string>Mozilla</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.firefox-rc-en_US</string>
+</dict>
+</plist>
