@@ -26,6 +26,10 @@
 			<string>Utilities</string>
 			<key>developer</key>
 			<string>Oracle</string>
+			<key>requires</key>
+			<array>
+				<string>javaforosx</string>
+			</array>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
